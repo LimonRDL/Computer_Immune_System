@@ -181,7 +181,7 @@ python main.py --once
 
 ## Windows compatibility
 
-The process monitor and isolation workflow use `psutil`, which works on Windows, Linux, and macOS. Policy path matching normalizes path separators and case. Service restart uses `sc stop` / `sc start` on Windows, `launchctl` on macOS, and `systemctl` on Linux.
+The process monitor and isolation workflow use `psutil`, which works on Windows, Linux, and macOS. Policy path matching normalizes path separators and case. Service restart uses `sc stop` / `sc start` on Windows, `launchctl` on macOS, and `systemctl` on Linux ,AHK .
 
 ## Security review and production roadmap
 
